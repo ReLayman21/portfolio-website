@@ -143,12 +143,8 @@ button {
 
 button:hover,
 button:focus,
-<<<<<<< HEAD
 #button1:hover .button1:focus,
 #button2:hover .button2:focus {
-=======
-#button1:hover .button1:focus #button2:hover .button2:focus {
->>>>>>> main
   background-color: #b56576;
   cursor: -webkit-grab;
   cursor: grab;
