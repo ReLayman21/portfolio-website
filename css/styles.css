@@ -92,17 +92,13 @@ button,
   transition: font-size 2s;
 }
 
-%button-shared {
+button:hover,
+button:focus,
+#button1:hover .button1:focus {
   background-color: var(--background-color-lightred);
   cursor: grab;
   opacity: 0.8;
   transition: width 3s;
-}
-
-button:hover,
-button:focus,
-#button1:hover .button1:focus {
-  @extend %button-shared;
 }
 
 .page-header {

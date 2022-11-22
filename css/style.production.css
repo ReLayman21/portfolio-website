@@ -47,32 +47,44 @@ h1 {
 
 .project-list > *:nth-child(1) {
   -ms-grid-row: 1;
+  grid-row: inherit;
   -ms-grid-column: 1;
+  grid-column: inherit;
 }
 
 .project-list > *:nth-child(2) {
   -ms-grid-row: 1;
+  grid-row: inherit;
   -ms-grid-column: 3;
+  grid-column: inherit;
 }
 
 .project-list > *:nth-child(3) {
   -ms-grid-row: 1;
+  grid-row: inherit;
   -ms-grid-column: 5;
+  grid-column: inherit;
 }
 
 .project-list > *:nth-child(4) {
   -ms-grid-row: 3;
+  grid-row: inherit;
   -ms-grid-column: 1;
+  grid-column: inherit;
 }
 
 .project-list > *:nth-child(5) {
   -ms-grid-row: 3;
+  grid-row: inherit;
   -ms-grid-column: 3;
+  grid-column: inherit;
 }
 
 .project-list > *:nth-child(6) {
   -ms-grid-row: 3;
+  grid-row: inherit;
   -ms-grid-column: 5;
+  grid-column: inherit;
 }
 
 .grid__item {
@@ -128,19 +140,15 @@ button {
   transition: font-size 2s;
 }
 
-%button-shared {
+button:hover,
+button:focus,
+#button1:hover .button1:focus {
   background-color: #b56576;
   cursor: -webkit-grab;
   cursor: grab;
   opacity: 0.8;
   -webkit-transition: width 3s;
   transition: width 3s;
-}
-
-button:hover,
-button:focus,
-#button1:hover .button1:focus {
-  @extend %button-shared;
 }
 
 .page-header {
