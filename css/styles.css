@@ -78,7 +78,8 @@ h1 {
 }
 
 button,
-#button1 {
+#button1,
+#button2 {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -94,7 +95,8 @@ button,
 
 button:hover,
 button:focus,
-#button1:hover .button1:focus {
+#button1:hover .button1:focus,
+#button2:hover .button2:focus {
   background-color: var(--background-color-lightred);
   cursor: grab;
   opacity: 0.8;
